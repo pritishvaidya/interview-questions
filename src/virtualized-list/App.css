@@ -1,0 +1,12 @@
+.list-container {
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+.list-item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ccc;
+}

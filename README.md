@@ -21,16 +21,15 @@ Ensure you have the following installed:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/react-apps.git
-   cd react-apps
+   git clone https://github.com/interview-questions.git
    ```
 2. Install dependencies:
    ```sh
-   npm install  # or yarn install
+   yarn install
    ```
 3. Start the development server:
    ```sh
-   npm start  # or yarn start
+   yarn start
    ```
 4. Open your browser and navigate to `http://localhost:3000/`.
 
@@ -65,17 +64,6 @@ Ensure you have the following installed:
 This project is licensed under the MIT License. Feel free to modify and use it for your own purposes.
 
 ---
-
-### Setting up a Create React App with TypeScript
-
-To create a new React project with TypeScript:
-
-```sh
-npx create-react-app my-app --template typescript
-cd my-app
-npm install
-npm start
-```
 
 ## Interview Questions Directory Structure
 
