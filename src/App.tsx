@@ -1,15 +1,8 @@
-import {useState} from "react";
+import React from "react";
+import BatchedProgressBars from "./batched-progress-bars/App";
 
 const App = () => {
-   const [progressBars, updateProgressBars] = useState<number[]>([]);
-
-
-
-   return (
-       <div className="container">
-          <button></button>
-       </div>
-   )
+    return <BatchedProgressBars/>
 }
 
 export default App;

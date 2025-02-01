@@ -1,0 +1,39 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+
+.progress-bar {
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.progress-content {
+    background-color: red;
+    height: 20px;
+    transition: width 1s linear;
+}
+
+.progress-container {
+    max-width: 500px;
+}
