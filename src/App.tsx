@@ -1,8 +1,8 @@
 import React from "react";
-import BatchedProgressBars from "./batched-progress-bars/App";
+import FolderStructure from "./folder-structure/App";
 
 const App = () => {
-    return <BatchedProgressBars/>
+    return <FolderStructure/>
 }
 
 export default App;
