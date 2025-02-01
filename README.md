@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# React Applications Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains various React applications, including different projects and interview questions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Multiple React applications organized in separate directories.
+- Each application follows best practices for React and TypeScript.
+- Includes solutions to common interview questions.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ensure you have the following installed:
 
-### `npm test`
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
 
-### `npm run build`
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-repo/react-apps.git
+   cd react-apps
+   ```
+2. Install dependencies:
+   ```sh
+   npm install  # or yarn install
+   ```
+3. Start the development server:
+   ```sh
+   npm start  # or yarn start
+   ```
+4. Open your browser and navigate to `http://localhost:3000/`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+.
+├── src
+│   ├── components
+│   ├── App.tsx  # Main application
+│   ├── App.css  # Styling
+│   ├── index.tsx  # Entry point
+├── public
+├── package.json
+├── README.md
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **React**: Front-end library
+- **TypeScript**: Ensures type safety
+- **CSS**: For basic styling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Potential Improvements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Add animations.
+- Improve UI with better design.
+- Add tests using Jest.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the MIT License. Feel free to modify and use it for your own purposes.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setting up a Create React App with TypeScript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To create a new React project with TypeScript:
 
-### Code Splitting
+```sh
+npx create-react-app my-app --template typescript
+cd my-app
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Interview Questions Directory Structure
 
-### Analyzing the Bundle Size
+This repository contains multiple directories with different interview questions, structured as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+.
+├── interview-questions
+│   ├── question-1
+│   │   ├── src
+│   │   ├── README.md
+│   ├── question-2
+│   │   ├── src
+│   │   ├── README.md
+│   ├── ...
+```
 
-### Making a Progressive Web App
+Each directory contains:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- The React component related to the question.
+- A `README.md` explaining the problem and solution.
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Pritish Vaidya**
