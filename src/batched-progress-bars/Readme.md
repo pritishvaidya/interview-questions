@@ -3,6 +3,10 @@
 This is a simple React application that dynamically adds and manages progress bars, ensuring that at most three bars run
 simultaneously.
 
+### Companies [2025]
+
+**Uber**
+
 ## Features
 
 - Add progress bars dynamically.

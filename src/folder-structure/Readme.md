@@ -3,6 +3,10 @@
 This project is a **React-based Folder Tree Viewer** that dynamically renders an **N-level nested folder structure**. It
 supports state persistence using `localStorage` and prevents state resets when toggling folders.
 
+### Companies [2025]
+
+**Postman | Quizziz**
+
 ## Features
 
 - **Recursive Rendering**: Supports unlimited levels of folders and files.
