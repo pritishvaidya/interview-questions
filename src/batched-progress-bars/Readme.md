@@ -23,16 +23,16 @@ Ensure you have the following installed:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repo/react-progress-bar.git
-   cd react-progress-bar
+   git clone https://github.com/interview-questions.git
+   cd batched-progress-bar
    ```
 2. Install dependencies:
    ```sh
-   npm install  # or yarn install
+   yarn install  # or yarn install
    ```
 3. Start the development server:
    ```sh
-   npm start  # or yarn start
+   yarn start  # or yarn start
    ```
 4. Open your browser and navigate to `http://localhost:3000/`.
 
