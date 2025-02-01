@@ -1,8 +1,9 @@
 import React from "react";
-import FolderStructure from "./folder-structure/App";
+import VirtualizedList from "./virtualized-list/App";
 
+// Import your app here
 const App = () => {
-    return <FolderStructure/>
+    return <VirtualizedList/>
 }
 
 export default App;
