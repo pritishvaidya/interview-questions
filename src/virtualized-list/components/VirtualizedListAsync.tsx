@@ -35,7 +35,6 @@ const VirtualizedListAsync = ({containerHeight, itemHeight, fetchData}: {
             setLoading(true);
             const response = await fetchData(page + 1)
             if (response.length === 0) return;
-            console.log({response})
             updateItems(prevItems => [...prevItems, ...response])
             setPage(prevState => prevState + 1)
         } catch (ex) {
